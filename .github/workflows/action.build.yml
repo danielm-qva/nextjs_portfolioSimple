@@ -1,0 +1,16 @@
+name: Nextjs
+
+on:
+  push:
+   branches: [ "master" ]
+
+jobs: 
+    build: 
+        runs-on : ubuntu-22.04
+        strategy:
+           matrix: 
+              node-version: [16.x]
+
+        steps:
+          - name: "job runin"
+            run: echo "Hola mundo"
