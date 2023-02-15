@@ -6,3 +6,6 @@
   1 - Clone app .
   2 - npm ci ;
   3 - npm run dev ;
+
+# CI and CD
+Frist Git Action for build .. 

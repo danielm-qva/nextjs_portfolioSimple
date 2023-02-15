@@ -89,5 +89,11 @@ export const proyect = [
       tecn: 'Node js (Express)',
       link_repo : 'https://github.com/danielm-qva/node_JWT'
    },
+   {
+      title: 'Aljazira-Retail',
+      descript: "Estube trabajando en un proyecto relacioandos con las gestion en general de un BANCO.",
+      tecn: 'Angular',
+      link_repo : ''
+   },
    
 ]
