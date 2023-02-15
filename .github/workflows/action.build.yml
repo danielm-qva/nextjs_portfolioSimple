@@ -6,11 +6,14 @@ on:
 
 jobs: 
     build: 
-        runs-on : ubuntu-22.04
-        strategy:
-           matrix: 
-              node-version: [16.x]
-
+        name: "build App"
+        runs-on: ubuntu-22.04
         steps:
-          - name: "job runin"
-            run: echo "Hola mundo"
+          - uses: actions/setup-node@v3
+            with:
+              node-version: 16
+          - run: 'npm ci'
+          - run: 'node'
+          - run: 'console.log('')'
+            
+      
