@@ -13,5 +13,5 @@ jobs:
             with:
               node-version: 16
           - run: 'node --version'
-            
+          - run : echo ${{secrets.TOKEN_VERCEL}}
       
